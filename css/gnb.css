@@ -1,0 +1,51 @@
+.gnb-content {
+    width: 1000px;
+    height: 60px;
+    padding: 5px;
+  }
+  .logo{
+    margin-right: auto;
+  }
+  .logo>i{
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .search-box{
+    background-color: #efefef;
+    width: 268px;
+    height: 36px;
+    border-radius: 8px;
+   
+   margin-right: auto;
+  }
+  .search-box>img{
+    margin-left: 15px;
+    margin-right: 15px;
+
+  }
+  .search-box>input{
+    border: none;
+    margin-right: auto;
+    font-size: 16px;
+    background-color: transparent;
+    font-weight: lighter;
+
+    background-image: url("../image/icons/11.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin-left: 10px;
+    text-indent: 25px;
+
+  }
+  .search-box>input:focus{
+    outline: none;
+    background-image: none;
+    text-indent: 0px;
+  }
+  .icons>img{
+    margin: 10px;
+  }
+  .gnb{
+    border-bottom: 0,5px solid #efefef;
+  }
